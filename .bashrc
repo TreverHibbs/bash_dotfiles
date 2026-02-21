@@ -129,5 +129,3 @@ export INFOPATH="$INFOPATH:/usr/local/texlive/2025/texmf-dist/doc/info"
 PROMPT_COMMAND=${PROMPT_COMMAND:+"$PROMPT_COMMAND; "}'printf "\e]9;9;%s\e\\" "$(wslpath -w "$PWD")"'
 
 eval "$(fzf --bash)"
-
-export LIBGL_ALWAYS_SOFTWARE=1
